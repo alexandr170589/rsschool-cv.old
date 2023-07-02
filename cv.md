@@ -20,6 +20,8 @@ var summation = function (num) {
 }
 ```
 ## Experience
+rsschool-cv 
+https://alexandr170589.github.io/rsschool-cv/cv
 ## Education
 ## English
 A1 (read)
