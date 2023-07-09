@@ -12,7 +12,7 @@
         box-sizing: border-box;
 }
 .header {
-        background-color: #829985;
+        background-color: #98C231;
 }
 body {
         display: flex;
@@ -24,7 +24,7 @@ body {
         font-size: 18px;
         font-weight: 400;
         line-height: 1.5;
-        color: #4d2323;
+        color: #221313;
         min-height: 100vh;
 }
 .container {
@@ -44,11 +44,8 @@ html {
 .nav-link {
         padding: 0 20px;
         line-height: 50px;
-        /*transition: .3s;*/
-
         text-decoration: none;
-        color: #fff;
-        /*transition: color 0.5s;*/
+        color: #fff;        
 }
 .nav-link:hover {
         text-decoration: underline;
@@ -58,28 +55,6 @@ html {
 .section ul {
         padding-left: 15px;
 }
-.section-item {
-        position: relative;
-        padding-left: 30px;
-}
-.section-item::before {
-        content: "";
-        position: absolute;
-        top: 8px;
-        left: 0px;
-        width: 10px;
-        height: 10px;
-        border: 1px solid #829985;
-        border-radius: 50%;
-}
-.section-item a {
-        color: #829985;
-        text-decoration: none;
-        transition: color 0.5s;
-}
-.section-item a:hover {
-        color: #4d2323;
-}
 .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -87,9 +62,9 @@ html {
 .section {
         width: calc(50% - 20px);
         padding: 10px;
-        padding-bottom: 35px;
+        padding-bottom: 30px;
         margin: 10px;
-        border-bottom: 1px solid #672f2f;
+        border-bottom: 1px solid #5F8600;
 }
 .avatar {
         max-width: 250px;
@@ -117,12 +92,7 @@ html {
                 text-align: center;
         }
         .footer-content {
-                /*display: flex;*/
-                flex-direction: column;
-                /*align-items: center;
-                justify-content: center;
-                align-content: center;
-                text-align: center;  */
+                flex-direction: column;                
         }      
 }
 .profile {
@@ -131,7 +101,7 @@ html {
         width: 100%;
         padding: 50px 30px 35px;
         text-align: center;
-        border-bottom: 15px solid #d7d1c9;
+        border-bottom: 10px solid #5F8600;
     }
 .section-profile-info {
         display: flex;
@@ -146,30 +116,26 @@ html {
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 5px;
-        color: #829985;
+        color: #3E5700;
 }
 .section-title {
         font-size: 20px;
         font-weight: 400;
         text-transform: uppercase;
         letter-spacing: 5px;
-        color: #829985;
+        color: #3E5700;
 }
 .english {
         border-bottom:none;
 }
-.nav-link:hover {
-        color: #5d7260;
-}
 .link {
         text-decoration: none;
-        color: #4d2323;        ;
+        color: #221313;        ;
         transition: color 0.5s;  
 }
 .footer {
-        background-color: #829985;
+        background-color: #98C231;
         display: flex;
-        /*flex-direction: column;*/
         justify-content: center;
         align-content: center;
         text-align: center;  
