@@ -25,9 +25,12 @@
     </header>
     <main class="main">
         <div class="container main-container">
-            <section class="section" id="profile">
-                <img src="assets/img/avatar.png" alt="avatar">
-                <h1 class="section-profile-title">Aleksandr Bukreev</h1>
+            <section class="section profile" id="profile">
+                <img src="assets/img/avatar.png" alt="avatar" class="avatar">
+                <div class="section-profile-info">
+                    <h1 class="section-profile-title">Aleksandr Bukreev</h1>
+                    <p>User Support Specialist</p>
+                </div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
@@ -39,7 +42,7 @@
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                        <p>I like to learn something new. I like meeting new people.Nice little guy and kind.</p>
+                        <p>I like to learn something new. I like meeting new people. Nice little guy and kind.</p>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
@@ -57,33 +60,30 @@
                     <p>Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.</p>
                     <pre> 
 var summation = function (num) {
-return num * (num + 1) / 2;
+    return num * (num + 1) / 2;
 }               
                     </pre>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                    <p><a href="http://alexandr170589.github.io/rsschool-cv/cv">Rsschool-CV</a></p>
+                    <p><a href="http://alexandr170589.github.io/rsschool-cv/cv" class="link">Rsschool-CV</a></p>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
                     <p>Solikamsk State Pedagogical Institute</p>
             </section>
-            <section class="section" id="english">
+            <section class="section english" id="english">
                 <h2 class="section-title">English</h2>
                     <p>A1</p>
             </section>
         </div>       
     </main>
     <footer class="footer">
-        <div class="container">
-        2023
-        <a href="https://github.com/alexandr170589">Aleksandr Bukreev</a>
-        <div class="logo">
-            <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="Rsschool"></a>
-        </div>
+        <div class="container footer-content">
+            <p>© 2023</p>
+            <p><a href="https://github.com/alexandr170589" class="link">Aleksandr Bukreev</a></p>
+            <p><a href="https://rs.school/js/"><img src="assets/svg/rss.svg"  alt="Rsschool" width="121" height="45" class="svg"></a></p>
         </div>        
-    </footer>
-    
+    </footer>    
 </body>
 </html>
