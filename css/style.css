@@ -45,7 +45,7 @@ html {
         padding: 0 20px;
         line-height: 50px;
         text-decoration: none;
-        color: #fff;        
+        color: #fff;
 }
 .nav-link:hover {
         text-decoration: underline;
@@ -77,12 +77,12 @@ html {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-        }  
+        }
         .profile {
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
-        }  
+        }
         .footer {
                 display: flex;
                 flex-direction: column;
@@ -92,8 +92,8 @@ html {
                 text-align: center;
         }
         .footer-content {
-                flex-direction: column;                
-        }      
+                flex-direction: column;     
+        }
 }
 .profile {
         display: flex;
@@ -130,24 +130,24 @@ html {
 }
 .link {
         text-decoration: none;
-        color: #221313;        ;
-        transition: color 0.5s;  
+        color: #221313;
+        transition: color 0.5s;
 }
 .footer {
         background-color: #98C231;
         display: flex;
         justify-content: center;
         align-content: center;
-        text-align: center;  
+        text-align: center;
 }
 .footer-content {
-        width: 100%;      
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-content: center;
-        text-align: center;  
+        text-align: center;
         align-items: center;
 }
-.svg {        
-        text-align: center;        
+.svg {
+        text-align: center;
 }
